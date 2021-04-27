@@ -1,0 +1,290 @@
+Region, Country_Code, Country_Name 
+Central America,582,  MEXICO 
+Central Asia,236,  AFGHANISTAN 
+Southern Europe,101,  ALBANIA 
+Northern Africa,316,  ALGERIA 
+Southern Europe,102,  ANDORRA 
+Central Africa,324,  ANGOLA 
+Caribbean,529,  ANGUILLA 
+Caribbean,518,  ANTIGUA-BARBUDA 
+South America,687,  ARGENTINA 
+Caucus,151,  ARMENIA 
+Caribbean,532,  ARUBA 
+Australia,438,  AUSTRALIA 
+Central Europe,103,  AUSTRIA 
+Central Asia,152,  AZERBAIJAN 
+Caribbean,512,  BAHAMAS 
+Middle East,298,  BAHRAIN 
+South Asia,274,  BANGLADESH 
+Caribbean,513,  BARBADOS 
+Western Europe,104,  BELGIUM 
+Caribbean,581,  BELIZE 
+Western Africa,386,  BENIN 
+Caribbean,509,  BERMUDA 
+Eastern Europe,153,  BELARUS 
+South Asia,242,  BHUTAN 
+South America,688,  BOLIVIA 
+Caribbean,717,  BONAIRE"," ST EUSTATIUS, SABA
+Balkan,164,  BOSNIA-HERZEGOVINA 
+Southern Africa,336,  BOTSWANA 
+South America,689,  BRAZIL 
+Caribbean,525,  BRITISH VIRGIN ISLANDS 
+South East Asia,217,  BRUNEI 
+Central Europe,105,  BULGARIA 
+Western Africa,393,  BURKINA FASO 
+South Asia,243,  BURMA 
+Central Africa,375,  BURUNDI 
+Central Africa,310,  CAMEROON 
+Western Africa,326,  CAPE VERDE 
+Caribbean,526,  CAYMAN ISLANDS 
+Central Africa,383,  CENTRAL AFRICAN REPUBLIC 
+Central Africa,384,  CHAD 
+South America,690,  CHILE 
+East Asia,245,  CHINA PRC
+Caribbean,721,  CURACAO 
+Indian Ocean,270,  CHRISTMAS ISLAND 
+Australia,271,  COCOS ISLANDS 
+South America,691,  COLOMBIA 
+Indian Ocean,317,  COMOROS 
+Western Africa,385,  CONGO 
+Pacific Islands,467,  COOK ISLANDS 
+Central America,575,  COSTA RICA 
+Central Europe,165,  CROATIA 
+Caribbean,584,  CUBA 
+Middle East,218,  CYPRUS 
+Central Europe,140,  CZECH REPUBLIC 
+Northern Europe,723,  FAROE ISLANDS (PART OF DENMARK) 
+Northern Europe,108,  DENMARK 
+East Africa,322,  DJIBOUTI 
+Caribbean,519,  DOMINICA 
+Caribbean,585,  DOMINICAN REPUBLIC 
+South East Asia,240,  EAST TIMOR 
+South America,692,  ECUADOR 
+Northern Africa,368,  EGYPT 
+Central America,576,  EL SALVADOR 
+Central Africa,399,  EQUATORIAL GUINEA 
+Eastern Africa,372,  ERITREA 
+Baltic,109,  ESTONIA 
+Eastern Africa,369,  ETHIOPIA 
+South America,604,  FALKLAND ISLANDS 
+Pacific Islands,413,  FIJI 
+Northern Europe,110,  FINLAND 
+Western Europe,111,  FRANCE 
+South America,601,  FRENCH GUIANA 
+Pacific Islands,411,  FRENCH POLYNESIA 
+Central Africa,387,  GABON 
+Western Africa,338,  GAMBIA 
+Middle East,758,  GAZA STRIP 
+Caucasus,154,  GEORGIA 
+Central Europe,112,  GERMANY 
+West Africa,339,  GHANA 
+North Africa,143,  GIBRALTAR 
+Southern Europe,113,  GREECE 
+Caribbean,520,  GRENADA 
+Caribbean,507,  GUADELOUPE 
+Central America,577,  GUATEMALA 
+Central Africa,382,  GUINEA 
+Western Africa,327,  GUINEA-BISSAU 
+Carribbean,603,  GUYANA 
+Carribbean,586,  HAITI 
+INDIAN OCEAN TERRITORY,726,  HEARD AND MCDONALD IS. 
+Southern Europe,149,  HOLY SEE/VATICAN 
+Central America,528,  HONDURAS 
+East Asia,206,  HONG KONG 
+Central Europe,114,  HUNGARY 
+Northern Europe,115,  ICELAND 
+South Asia,213,  INDIA
+INDIAN OCEAN AREAS (FRENCH),759,  INDIAN OCEAN AREAS (FRENCH) 
+INDIAN OCEAN TERRITORY,729,  INDIAN OCEAN TERRITORY 
+South East Asia,204,  INDONESIA 
+Central Asia,249,  IRAN 
+Central Asia,250,  IRAQ 
+Northern Europe,116,  IRELAND 
+Western Asia,251,  ISRAEL 
+Southern Europe,117,  ITALY 
+Western Africa,388,  IVORY COAST 
+Caribbean,514,  JAMAICA 
+East Asia,209,  JAPAN 
+Western Asia,253,  JORDAN 
+South East Asia,201,  KAMPUCHEA 
+Central Asia,155,  KAZAKHSTAN 
+Eastern Africa,340,  KENYA 
+Pacific Islands,414,  KIRIBATI 
+Central Europe,732,  KOSOVO 
+Middle East,272,  KUWAIT 
+Central Asia,156,  KYRGYZSTAN 
+South East Asia,203,  LAOS 
+Baltic,118,  LATVIA 
+Western Asia,255,  LEBANON 
+Southern Africa,335,  LESOTHO 
+Northern Africa,370,  LIBERIA 
+Western Africa,381,  LIBYA 
+Baltic,119,  LIECHTENSTEIN 
+Baltic,120,  LITHUANIA 
+Western Europe,121,  LUXEMBOURG 
+East Asia,214,  MACAU 
+Balkan,167,  MACEDONIA 
+Western Europe,320,  MADAGASCAR 
+Central Africa,345,  MALAWI 
+South East Asia,273,  MALAYSIA 
+South Asia,220,  MALDIVES 
+Western Africa,392,  MALI 
+Southern Europe,145,  MALTA 
+Pacific Islands,472,  MARSHALL ISLANDS 
+Caribbean ,511,  MARTINIQUE 
+North Africa,389,  MAURITANIA 
+Indian Ocean,342,  MAURITIUS 
+Indian Ocean,760,  MAYOTTE (AFRICA - FRENCH) 
+Pacific Islands,473,  MICRONESIA, FED. STATES OF,
+Balkan,157,  MOLDOVA 
+Western Europe,122,  MONACO 
+Central Asia,299,  MONGOLIA 
+Balkan,735,  MONTENEGRO 
+Caribbean,521,  MONTSERRAT 
+Northern Africa,332,  MOROCCO 
+Central Africa,329,  MOZAMBIQUE 
+Southern Africa,371,  NAMIBIA 
+Pacific Islands,440,  NAURU 
+Southern Asia,257,  NEPAL 
+Western Europe,123,  NETHERLANDS 
+Caribbean,508,  NETHERLANDS ANTILLES 
+Pacific Islands,409,  NEW CALEDONIA 
+Australasia,464,  NEW ZEALAND 
+Central America,579,  NICARAGUA 
+Central Africa,390,  NIGER 
+Western Africa,343,  NIGERIA 
+Australasia,470,  NIUE 
+East Asia,275,  NORTH KOREA 
+Northern Europe,124,  NORWAY 
+Middle East,256,  OMAN 
+South Asia,258,  PAKISTAN 
+Indian Ocean,474,  PALAU 
+Western Asia,743,  PALESTINE 
+Central America,504,  PANAMA 
+Pacific,441,  PAPUA NEW GUINEA 
+South America,693,  PARAGUAY 
+South America,694,  PERU 
+South East Asia,260,  PHILIPPINES 
+Pacific Ocean,416,  PITCAIRN ISLANDS 
+Eastern Europe,107,  POLAND 
+Western Europe,126,  PORTUGAL 
+Central Asia,297,  QATAR 
+Central Africa,748,  REPUBLIC OF SOUTH SUDAN 
+Indian Ocean,321,  REUNION 
+Southern Europe,127,  ROMANIA 
+Eurasia,158,  RUSSIA 
+Central Africa,376,  RWANDA 
+Southern Europe,128,  SAN MARINO 
+Western Africa,330,  SAO TOME AND PRINCIPE 
+Middle East,261,  SAUDI ARABIA 
+West Africa,391,  SENEGAL 
+Balkan,142,  SERBIA AND MONTENEGRO 
+Balkan,745,  SERBIA 
+Indian Ocean,347,  SEYCHELLES 
+Western Africa,348,  SIERRA LEONE 
+South East Asia,207,  SINGAPORE 
+Central Europe,141,  SLOVAKIA 
+Balkan,166,  SLOVENIA 
+Pacific Islands,412,  SOLOMON ISLANDS 
+Eastern Africa,397,  SOMALIA 
+South Africa,373,  SOUTH AFRICA 
+East Asia,276,  SOUTH KOREA 
+Western Europe,129,  SPAIN 
+South Asia,244,  SRI LANKA 
+South Atlantic Ocean,346,  ST. HELENA 
+Caribbean,522,  ST. KITTS-NEVIS 
+Caribbean,523,  ST. LUCIA 
+French-North America,502,  ST. PIERRE AND MIQUELON 
+Caribbean,524,  ST. VINCENT-GRENADINES 
+Caribbean,716,  SAINT BARTHELEMY 
+SAINT MARTIN,736,  SAINT MARTIN 
+Caribbean,749,  SAINT MAARTEN 
+Central Africa,350,  SUDAN 
+South America,602,  SURINAME 
+South Africa,351,  SWAZILAND 
+Northern Europe,130,  SWEDEN 
+Central Europe,131,  SWITZERLAND 
+Western Asia,262,  SYRIA 
+East Asia,268,  TAIWAN 
+Central Asia,159,  TAJIKISTAN 
+Central Europe,353,  TANZANIA 
+South East Asia,263,  THAILAND 
+Western Africa,304,  TOGO 
+Pacific Islands,417,  TONGA 
+Caribbean,516,  TRINIDAD AND TOBAGO 
+Western Asia,323,  TUNISIA 
+Western Asia,264,  TURKEY 
+Central Asia,161,  TURKMENISTAN 
+Caribbean,527,  TURKS AND CAICOS ISLANDS 
+Pacific Islands,420,  TUVALU 
+Central Asia,352,  UGANDA 
+Eastern Europe,162,  UKRAINE 
+Middle East,296,  UNITED ARAB EMIRATES 
+Western Europe,135,  UNITED KINGDOM 
+South America,695,  URUGUAY 
+Central Asia,163,  UZBEKISTAN 
+Pacific Islands,410,  VANUATU 
+South America,696,  VENEZUELA 
+South East Asia,266,  VIETNAM 
+Pacific Islands,469,  WALLIS AND FUTUNA ISLANDS 
+Caribbean,757,  WEST INDIES (FRENCH) 
+North Africa,333,  WESTERN SAHARA 
+Pacific Islands,465,  WESTERN SAMOA 
+Central Asia,216,  YEMEN 
+Balkan,139,  YUGOSLAVIA 
+Western Africa,301,  ZAIRE 
+Central Africa,344,  ZAMBIA 
+Central Africa,315,  ZIMBABWE 
+US Territories,403,  AMERICAN SAMOA 
+Antarctica,712,  ANTARCTICA 
+US Territories,700,  Ship 
+Antarctica,719,  BOUVET ISLAND (ANTARCTICA/NORWAY TERR.) 
+North America,574,  CANADA 
+Central Europe,106,  CZECHOSLOVAKIA 
+N/A,720,CANTON AND ENDERBURY ISLS 
+Central Europe,739,  CZECHOSLOVAKIA 
+Antarctica,394,  FRENCH SOUTHERN AND ANTARCTIC 
+Northern Europe,501,  Greenland 
+US Territories,404,   GUAM 
+N/A ,730,  International Waters 
+N/A,731,  JOHNSON ISLAND 
+N/A,471,  MARIANA ISLANDS, NORTHERN,
+US Territories,737,  MIDWAY ISLANDS 
+US Territories,753,  MINOR OUTLYING ISLANDS - USA 
+Central Asia,740,  NEUTRAL ZONE (S. ARABIA/IRAQ) 
+N/A,710,  NON-QUOTA IMMIGRANT 
+US Territories,505,  PUERTO RICO 
+N/A,0,  Stateless 
+US Territories,705,  Stateless 
+US Territories,583,  UNITED STATES 
+US Territories,407,  UNITES STATES 
+N/A,999,  UNKNOWN 
+US Territories,239,  UNKNOWN COUNTRY 
+US Territories,134,  USSR 
+US Territories,506,  U.S. VIRGIN ISLANDS 
+US Territories,755,  WAKE ISLAND 
+US Territories,311,  Other 
+US Territories,741,  Other 
+US Territories,54,  Other 
+US Territories,100,  Other 
+US Territories,187,  Other 
+US Territories,190,  Other 
+US Territories,200,  Other 
+US Territories,219,  Other 
+US Territories,238,  Other 
+US Territories,277,  Other 
+US Territories,293,  Other 
+US Territories,300,  Other 
+US Territories,319,  Other 
+US Territories,365,  Other 
+US Territories,395,  Other 
+US Territories,400,  Other 
+US Territories,485,  Other 
+US Territories,503,  Other 
+US Territories,589,  Other 
+US Territories,592,  Other 
+US Territories,791,  Other 
+US Territories,849,  Other 
+US Territories,914,  Other 
+US Territories,944,  Other 
+US Territories,996,  Other 
