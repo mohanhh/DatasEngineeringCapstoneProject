@@ -17,15 +17,18 @@ being countries visitors came from, their intended destination state, date of ar
 #### The data is organized to answer following queries.
 1.) Count of visitors from each country in 1996
 2.) Count of visitors from each country each quarter of 1996
-3.) Count of visitors from each region, each region per quarter or per month
+3.) Count of visitors from each region,  per quarter or per month
 4.) Count of visitors to each state
 5.) Count of visitors entering various port of entries in US
 
 Spark is chosen to analyze the data. Spark is well suited to analyze big data sets and is extremely scalable. It includes 
 SQL Engine Spark-SQL and a query optimizer in catalyst optimizer. 
 
+Data is cleaned, analyzed and copied to AWS Redshift to run further analysis.
+
 ### Cleaning Steps
-Data Frame schema is updated to remove spaces. Each data set is analyzed for duplicate values using SQL Queries.  
+Data Frame schema is updated to remove spaces. Each data set is analyzed for duplicate values using SQL Queries. For i94 data,rows which have arrdate and gender are null are removed. i94cit, i94res, cicid, i94bir are cast to integers. 
+
 
 ### Dimension Tables
 ##### Countries:  List of countries with id, name of the country, region it belongs to and country code extracted from 
