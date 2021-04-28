@@ -362,7 +362,7 @@ def main():
     spark = create_spark_session(config)
    
     
-    df_i94_data = readi94_data(spark, './i94_data/')
+    df_i94_data = readi94_data(spark, './i94_1/')
     
     df_states_dim = setup_states_dim(spark)
         # read in port of entry codes
