@@ -41,7 +41,25 @@ Country_codes Country Codes and country names extracted from i94 Visitor data di
 us-cities-demographics.csv: us-cities-demographics loaded as csv file.
 port_of_entry_codes.csv: Airport Code Table. This is a simple table of airport codes, corresponding cities and states, loaded as csv file.
 
+##### Rationale for the choice of tools and technologies for the project:
+I am choosing Spark to load and analyze the data. Spark is a popular opensource Analytical Tool supported on all major cloud platforms. Spark partitions the data and assigns it to individual worker nodes.  Any growth in data could be easily handled by adding more executors to Spark cluster. Spark also has in buit SQL Engine which makes it easy to analyze the data using familiar SQL syntax. After analysis, the data is being saved in Redshift.  Users can use variety of front end tools like Tableu or Power BI to generate reports and graphs from this data. 
+#### Propose how often the data should be updated and why.
+I propose that the data could be updated monthly. This will allow one to analyze visitor data to the country on a monthly and quarterly basis. 
 
+#### Write a description of how you would approach the problem differently under the following scenarios:
+#### The data was increased by 100x : 
+I would still use Spark to analyze the data. But perhaps we can reduce the time between updates to weekly to reduce time taken to analyze the data. As the final data is saved in Redshift which can handle peta bytes of data, the solution would still work. 
+
+#### The data populates a dashboard that must be updated on a daily basis by 7am every day.
+I would propose that we use Airflow to schedule following jobs
+a.) Kick off Cloud formation scripts to create an EMR cluster
+b.) Add Spark as one of the custom step in the EMR and run the code
+c.) Once the Spark job ends the data is available in Redshift, now kick off job to update the Dashboard.
+
+
+
+#### The database needed to be accessed by 100+ people.
+Data is being stored in Redshift, which can easily scale to handle 100+ people accessing the data. We can always add more compute nodes to allow simultaneous access to more people
 
 
 
