@@ -41,6 +41,26 @@ Country_codes Country Codes and country names extracted from i94 Visitor data di
 us-cities-demographics.csv: us-cities-demographics loaded as csv file.
 port_of_entry_codes.csv: Airport Code Table. This is a simple table of airport codes, corresponding cities and states, loaded as csv file.
 
+#### Quality Checks
+Quality checks are performed by running queries on the resulting i94_fact table
+Visitors by country
+select  c1.country_name, c1.region, count(*) as visitor_count from i94_data join countries c1 on i94_data.country_of_residence_id = c1.id group by c1.country_name, c1.region order by count(*) desc
+
+Visitors by region
+select c1.region, count(*) as visitor_count from i94_data join countries c1 on i94_data.country_of_residence_id = c1.id group by c1.region order by count(*) desc
+
+Visitors to state
+select  s1.state, s1.foreign_population, s2.visitor_count from (Select s1.STATE, count(*) as visitor_count from i94_data join states s1 on i94_data.destination_state_id = s1.id group by s1.STATE order by count(*) desc) s2 join all_states s1 on s1.state = s2.state order by s2.visitor_count desc
+
+Visitors by region by quarter
+select c1.region, t1.quarter, count(*) as visitor_count from i94_data join countries c1 on i94_data.country_of_residence_id = c1.id join time t1 on t1.id = i94_data.arrival_date_id group by c1.region, t1.quarter
+
+Visitors by port of entry
+select p1.location,  count(*) as visitor_count from i94_data join port_of_entry p1 on i94_data.port_of_entry_id = p1.id join time t1 on t1.id = i94_data.arrival_date_id group by p1.location, t1.quarter order by 2 desc
+
+If any of these return a count of 0 an error condition is raised. 
+
+
 ##### Rationale for the choice of tools and technologies for the project:
 I am choosing Spark to load and analyze the data. Spark is a popular opensource Analytical Tool supported on all major cloud platforms. Spark partitions the data and assigns it to individual worker nodes.  Any growth in data could be easily handled by adding more executors to Spark cluster. Spark also has in buit SQL Engine which makes it easy to analyze the data using familiar SQL syntax. After analysis, the data is being saved in Redshift.  Users can use variety of front end tools like Tableu or Power BI to generate reports and graphs from this data. 
 #### Propose how often the data should be updated and why.
